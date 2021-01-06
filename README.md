@@ -8,6 +8,9 @@
 
 ## Day 2: 5th of Jan 2021
 
--
--
--
+- Played around with regression
+
+## Day 3: 6th of Jan 2021
+
+- Make time series one patient for the whole period against NEWS chart
+- Make time series trend one patient for 2 months with rolling averages

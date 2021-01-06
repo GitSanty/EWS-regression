@@ -14,3 +14,6 @@
 
 - Make time series one patient for the whole period against NEWS chart
 - Make time series trend one patient for 2 months with rolling averages
+- Autocorrelation plots on one patient
+- Persistance model on one patient for several types of measurements.
+- Autoregression model on one patient for several types of measurements.

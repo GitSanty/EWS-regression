@@ -18,16 +18,13 @@
 - Persistance model on one patient for several types of measurements.
 - Autoregression model on one patient for several types of measurements.
 
-## Day 4: 7th of Jan 2021
-
-- Basic visuals: pie chart and bar chart on categorical variables
-- Split datetime object into date and time to find mean amount of observations/day
-- Continue with smoothing moving averages to make predictions
-- Get to know ARIMA model
-
-## Day 5: 8th of Jan 2021
-
-- Find the optimal amount of log for 1 feature
-- Continue further with ARIMA model
 
 
+## To do:
+
+- Make pie- and bar charts for the categorical features: LOC & Add_O2 for one patient;
+- Find a way to check the mean #observations / day for one patient;
+- Autocorrelation: time (x) and EWS_Total (y) for one or two days observations to make prediction for the next hour(s) (Is the relation linear or polynomial in time)?
+- Find ways to validate this model (not only splitting dataset).
+- Do autocorrelation for the different features (SBP, SpO2, etc)
+- Write a function that takes the predicted values for the features (SBP, SpO2, etc) and calculates the EWS_Total based upon the predicted actual values.

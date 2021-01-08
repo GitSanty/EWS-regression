@@ -27,7 +27,11 @@
 
 ## Day 5: 8th of Jan 2021
 
-- Find the optimal amount of log for 1 feature
-- Continue further with ARIMA model
-
+- How to train autoregression model and use it to make short-term and rolling forecasts
+- About the MA approach to develop an autoregression model to residual error
+- How to develop and evaluate a model of residual error to predict forecast error
+- how to use the predictions of force error to correct predictions and improve the model skill
+- ARIMA model, how it can be configured, and assumptions made by the model
+- perform time series analysis using ARIMA model
+- use ARIMA model to forecast out of sample predictions
 

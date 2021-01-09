@@ -34,4 +34,12 @@
 - ARIMA model, how it can be configured, and assumptions made by the model
 - perform time series analysis using ARIMA model
 - use ARIMA model to forecast out of sample predictions
+- Difference and intuition for interpreting ACF and PACF plots
 
+## Weekend
+
+- Grid search ARIMA parameters for time series
+- Finding p-, d-, q- values with auto.arima
+- Compare both findings (grid search vs. auto.arima)
+- Forecasting on grid search and on auto.arima
+- R2

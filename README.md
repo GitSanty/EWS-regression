@@ -43,3 +43,19 @@
 - Compare both findings (grid search vs. auto.arima)
 - Forecasting on grid search and on auto.arima
 - R2
+
+## Day 6 to 8: 11 - 13th of Jan 2021
+
+- Fit Arima model and plot residual errors
+- Use walk forward validation method to evaluate ARIMA model
+- Calculate confidence intervals and review them
+- Plot y, yhat (prediction) and 95% confidence intervals
+- Learn how to calculate p, d, q values manually using ADFtests, (P)ACF plots, adding differencing until (P)ACF plots taper to zero
+- Learn how to interpret different evaluation methods MSE for grid, p-value AR/MA SARIMAX result, 0 mean for residual errors, RMSE for walk forward validation, St error for confidence intervals
+
+## Day 9 : 14th of Jan 2021
+
+- Presentation
+- Backtest ARIMA model with other patient to see if we are overfitting to our previous patient or not.
+
+
